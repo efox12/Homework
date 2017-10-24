@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="p1">Player 1</string>
+    <string name="p2">Player 2</string>
+    <string name="stat1">\u0020game Stats\n-------------------------------------------
+        \nWin to loss ratio: \u0020</string>
+    <string name="stats2">:</string>
+    <string name="stats3">\nWin percentage: \u0020</string>
+    <string name="stats4">%\nNumber of scratch games: \u0020</string>
+    <string name="stats5">\n\n</string>
+    <string name="welcomeToast">Please enter distinct player names!</string>
+    <string name="firstPrompt">\u0020goes first this time. Make your move!</string>
+    <string name="invalidMove">Invalid Move!</string>
+    <string name="sctatchGame">Scratch Game!</string>
+    <string name="turn">\'s turn.</string>
+    <string name="winner">\u0020won! \nPlay Again?</string>
+    <string name="play">Play!</string>
+    <string name="playAgain">Play Again</string>
+    <string name="quit">Quit</string>
+    <string name="instructions">Welcome to Tic Tac Toe! There are two players.
+        Player one represented by the fox and player two represented by the hedgehog.
+        The first player to get three of their animal in a row vertically,
+        horizontally, or diagonally wins."</string>
+    <string name="hint1">Player 1 enter your name</string>
+    <string name="hint2">Player 2 enter your name</string>
+
+
+
+</resources>

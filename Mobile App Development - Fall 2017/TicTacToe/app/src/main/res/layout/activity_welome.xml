@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_gravity="center_horizontal"
+    android:columnCount="2"
+    android:padding="16dp"
+    android:rowCount="5"
+    tools:context="com.example.erikfox.tictactoe.WelomeActivity">
+
+    <TextView
+        android:id="@+id/Instructions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill"
+        android:layout_row="0"
+        android:gravity="center"
+        android:text="@string/instructions"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/PlayerOnePrompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_gravity="fill"
+        android:layout_row="1"
+        android:gravity="center"
+        android:text="Player 1 Name: "
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/playerOneName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_gravity="fill_horizontal"
+        android:layout_row="1"
+        android:hint="@string/hint1"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/PlayerTwoPrompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_gravity="fill"
+        android:layout_row="2"
+        android:gravity="center"
+        android:text="Player 2 Name: "
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/playerTwoName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_gravity="fill_horizontal"
+        android:layout_row="2"
+        android:hint="@string/hint2"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/playButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill"
+        android:layout_marginLeft="130dp"
+        android:layout_marginRight="130dp"
+        android:layout_row="3"
+        android:text="@string/play"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/Stats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill"
+        android:layout_row="4"
+        android:gravity="center"
+        android:textSize="16sp"
+
+        />
+</GridLayout>
