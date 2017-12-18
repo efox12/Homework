@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="4"
+    android:columnCount="2"
+    tools:context="com.example.erikfox.pizzaapp.FoodMenuActivity">
+
+    <ImageView
+        android:id="@+id/PizzaImage"
+        android:layout_rowWeight="2"
+        android:layout_columnWeight="1"
+        android:gravity="center"
+        android:layout_gravity="fill"
+        android:scaleType="fitCenter"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="PizzaImage" />
+
+    <ImageView
+        android:id="@+id/BurgerImage"
+        android:layout_rowWeight="2"
+        android:layout_columnWeight="1"
+        android:gravity="center"
+        android:layout_gravity="fill"
+        android:scaleType="fitCenter"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="BurgerImage" />
+
+    <TextView
+        android:id="@+id/PizzaText"
+
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:gravity="center"
+        android:text="@string/pizza" />
+
+
+    <TextView
+        android:id="@+id/BurgerText"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:gravity="center"
+        android:text="@string/burger" />
+
+    <ImageView
+        android:id="@+id/SaladImage"
+        android:layout_rowWeight="2"
+        android:layout_columnWeight="1"
+        android:gravity="center"
+        android:layout_gravity="fill"
+        android:scaleType="fitCenter"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="SaladImage" />
+
+
+
+
+    <ImageView
+        android:id="@+id/CoffeeImage"
+        android:layout_rowWeight="2"
+        android:layout_columnWeight="1"
+        android:gravity="center"
+        android:layout_gravity="fill"
+        android:scaleType="fitCenter"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="CoffeeImage" />
+
+    <TextView
+        android:id="@+id/SaladText"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:gravity="center"
+        android:text="@string/salad" />
+
+    <TextView
+        android:id="@+id/CoffeeText"
+
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:gravity="center"
+        android:text="@string/coffee" />
+
+
+
+
+
+
+</GridLayout>

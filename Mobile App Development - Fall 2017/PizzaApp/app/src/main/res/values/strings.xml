@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Bulldog Bites</string>
+    <string name="menu_name">Select an Item</string>
+    <string name="item_name">Build your own pizza</string>
+    <string name="stringone">\u0020Order #</string>
+    <string name="stringtwo">\u0020(</string>
+    <string name="stringthree">)</string>
+    <string name="dollar">$</string>
+    <string name="questionMark">\?</string>
+    <string name="pizza">$9.99 Pizza</string>
+    <string name="burger">$6.99 Burger</string>
+    <string name="salad">$5.99 Salad</string>
+    <string name="coffee">$1.99 Coffee</string>
+    <string name="toast">Not Available</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="ok">Dismiss</string>
+    <string name="share">Share</string>
+    <string name="alertTitle">Delete an Order</string>
+    <string name="alertTitle2">Delete All Orders</string>
+    <string name="alertTitle3">Help</string>
+    <string name="alertDiscription1">Are you sure you want to delete\u0020</string>
+    <string name="alertDiscription2">Are you sure you want to delete these orders?</string>
+    <string name="alertDiscription3">You can click the add button to add an order.\nYou can click the delete button to delete all orders.\nYou can click on an order to view it\nYou can long click an order to delete it.</string>
+</resources>
