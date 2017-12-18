@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Note Taker</string>
+    <string name="title">Title</string>
+    <string name="school">School</string>
+    <string name="other">Other</string>
+    <string name="work">Work</string>
+    <string name="personal">Personal</string>
+    <string name="content">Content</string>
+    <string name="done">Done</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="share">Share</string>
+    <string name="alertTitle">Delete Notes</string>
+    <string name="alertDiscription1">Are you sure you want to delete all notes?</string>
+    <string name="alertDiscription2">Are you sure you want to delete the selected notes?</string>
+    <string name="toastBlank">Please enter a title.</string>
+    <string name="toastTaken">That title is already taken.</string>
+    <string name="newNote">Add a new note</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+</resources>
